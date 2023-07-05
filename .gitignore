@@ -4,6 +4,7 @@
 /server/node_modules
 /server/node_modules/
 /node_modules
+src/.env
 
 /node_modules/
 /.pnp

@@ -20,7 +20,7 @@ const {
 const {
   showAllCategories,
   createCategory,
-  categoryPageDetails,
+  getcategoryPageDetails,
 } = require("../controllers/Category")
 
 // Sections Controllers Import
@@ -85,7 +85,7 @@ router.post("/getFullCourseDetails", auth, getFullCourseDetails)
 // TODO: Put IsAdmin Middleware here
 router.post("/createCategory", auth, isAdmin, createCategory)
 router.get("/showAllCategories", showAllCategories)
-router.post("/getCategoryPageDetails", categoryPageDetails)
+router.post("/getCategoryPageDetails", getcategoryPageDetails)
 
 // ********************************************************************************************************
 //                                      Rating and Review

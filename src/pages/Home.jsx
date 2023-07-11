@@ -51,7 +51,7 @@ const Home = () => {
             </CTAButton>
         </div>
 
-        <div className='w-11/12 h[515px] mx-3 my-12 shadow-white shadow-[20px_25px_1px_0.1px_white]'>
+        <div className='w-11/12 h[515px] mx-3 my-12 shadow-[-7px_-14px_15px_1px_#b794f4] shadow-white shadow-[20px_25px_1px_0.1px_white]'>
             <video
             muted
             loop

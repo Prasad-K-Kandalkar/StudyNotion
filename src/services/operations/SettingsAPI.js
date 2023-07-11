@@ -44,7 +44,6 @@ export function updateDisplayPicture(token, formData) {
 }
 
 export function updateProfile(token, formData) {
-    console.log("In updat",formData)
   return async (dispatch) => {
     const toastId = toast.loading("Loading...")
     try {
@@ -72,6 +71,7 @@ export function updateProfile(token, formData) {
 }
 
 export async function changePassword(token, formData) {
+  // console.log("form data",formData)
   const toastId = toast.loading("Loading...")
   try {
     const response = await apiConnector("POST", CHANGE_PASSWORD_API, formData, {

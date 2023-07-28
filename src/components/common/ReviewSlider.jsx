@@ -11,7 +11,7 @@ import "../../App.css"
 // Icons
 import { FaStar } from "react-icons/fa"
 // Import required modules
-import { Autoplay} from "swiper"
+// import { Autoplay} from "swiper"
 
 // Get apiFunction and the endpoint
 import { apiConnector } from "../../services/apiconnector"
